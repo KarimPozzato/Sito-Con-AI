@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domande Chiuse</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Domande Chiuse</h1>
+        <p id="timer">Tempo rimasto: 10:00</p>
+        <form id="closed-form" action="index.html">
+            <div class="question">
+                <label>1. Qual è il protocollo di trasporto affidabile?</label>
+                <div>
+                    <input type="radio" id="q6a" name="q6" value="TCP">
+                    <label for="q6a">TCP</label>
+                </div>
+                <div>
+                    <input type="radio" id="q6b" name="q6" value="UDP">
+                    <label for="q6b">UDP</label>
+                </div>
+            </div>
+            <div class="question">
+                <label>2. Quale servizio fornisce una connessione sicura?</label>
+                <div>
+                    <input type="radio" id="q7a" name="q7" value="HTTP">
+                    <label for="q7a">HTTP</label>
+                </div>
+                <div>
+                    <input type="radio" id="q7b" name="q7" value="HTTPS">
+                    <label for="q7b">HTTPS</label>
+                </div>
+            </div>
+            <div class="question">
+                <label>3. Il protocollo DNS opera a quale livello?</label>
+                <div>
+                    <input type="radio" id="q8a" name="q8" value="Livello di rete">
+                    <label for="q8a">Livello di rete</label>
+                </div>
+                <div>
+                    <input type="radio" id="q8b" name="q8" value="Livello applicativo">
+                    <label for="q8b">Livello applicativo</label>
+                </div>
+            </div>
+            <div class="question">
+                <label>4. Qual è il protocollo di trasporto del web?</label>
+                <div>
+                    <input type="radio" id="q9a" name="q9" value="HTTP">
+                    <label for="q9a">HTTP</label>
+                </div>
+                <div>
+                    <input type="radio" id="q9b" name="q9" value="TCP">
+                    <label for="q9b">TCP</label>
+                </div>
+            </div>
+            <div class="question">
+                <label>5. Quale porta utilizza HTTPS?</label>
+                <div>
+                    <input type="radio" id="q10a" name="q10" value="80">
+                    <label for="q10a">80</label>
+                </div>
+                <div>
+                    <input type="radio" id="q10b" name="q10" value="443">
+                    <label for="q10b">443</label>
+                </div>
+            </div>
+            <button type="submit" class="btn">Termina il Test</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
